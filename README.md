@@ -3,9 +3,11 @@
 This is a simple translation app that uses Amazon Web Services (AWS) to provide a user-friendly interface for translating text. The app makes use of the following AWS services:
 
 - Lambda function: To process the text, source language, and target language inputs and perform the translation.
--  API Gateway: To invoke the Lambda function for the frontend.
--  S3 bucket: To host the frontend webpage.
+- API Gateway: To invoke the Lambda function for the frontend.
+- S3 bucket: To host the frontend webpage.
 - Cloudfront: To serve the webpage hosted on the S3 bucket.
+- Route53: To route custom domains to the API Gateway and CloudFront
+- Cert manager: To create ssl certs to be able to use HTTPS
 # Frontend
 
 The frontend of the app is built using Bootstrap, jQuery, HTML, and CSS. It provides a simple page for users to input the text to be translated, choose the source and    target languages, and get the translated text. The page is hosted on a private S3 bucket and served through Cloudfront, making it accessible at https://translate.letstrack.nl .
