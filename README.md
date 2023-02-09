@@ -28,5 +28,9 @@ Future improvements could include adding more language options, improving the tr
 
 This simple translation app demonstrates the capabilities of AWS services for building a user-friendly and efficient translation tool. With its simple interface and comprehensive error handling, it provides a smooth user experience for anyone looking to translate text quickly and easily.
 
+# Diagram & Images
+![translate](https://user-images.githubusercontent.com/87921765/217714869-3d728daf-2c4a-4d23-a35c-2f5383e6970c.png)
+
+![image](https://user-images.githubusercontent.com/87921765/217714986-b71878a9-2fc6-4f3a-9c18-ee16ff76d82c.png)
 
 
