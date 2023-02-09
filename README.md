@@ -29,7 +29,7 @@ Future improvements could include adding more language options, improving the tr
 This simple translation app demonstrates the capabilities of AWS services for building a user-friendly and efficient translation tool. With its simple interface and comprehensive error handling, it provides a smooth user experience for anyone looking to translate text quickly and easily.
 
 # Diagram & Images
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/87921765/217715183-fa95e184-9555-4958-b1f4-7335beef76af.svg)
+![image](https://user-images.githubusercontent.com/87921765/217715306-31f128c9-7a80-49bb-a196-9f1a1443e927.png)
 
 
 
