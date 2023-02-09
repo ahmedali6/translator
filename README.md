@@ -1,7 +1,7 @@
 # Simple Translation App
 
 This is a simple translation app that uses Amazon Web Services (AWS) to provide a user-friendly interface for translating text. The app makes use of the following AWS services:
-
+**Table **
 . Lambda function: To process the text, source language, and target language inputs and perform the translation.
 . API Gateway: To invoke the Lambda function for the frontend.
 . S3 bucket: To host the frontend webpage.
