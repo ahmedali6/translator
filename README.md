@@ -7,7 +7,7 @@ This is a simple translation app that uses Amazon Web Services (AWS) to provide 
 - S3 bucket: To host the frontend webpage.
 - Cloudfront: To serve the webpage hosted on the S3 bucket.
 - Route53: To route custom domains to the API Gateway and CloudFront
-- Cert manager: To create ssl certs to be able to use HTTPS
+- Cert manager: To create SSL certs to be able to use HTTPS
 # Frontend
 
 The frontend of the app is built using Bootstrap, jQuery, HTML, and CSS. It provides a simple page for users to input the text to be translated, choose the source and    target languages, and get the translated text. The page is hosted on a private S3 bucket and served through Cloudfront, making it accessible at https://translate.letstrack.nl .
